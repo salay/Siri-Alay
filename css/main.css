@@ -446,6 +446,14 @@ font-size: 40px;
   height: auto;
 } */
 
+#abtImg p {
+  text-indent: 0em;
+  font-size: 12px;
+}
+
+.next {
+  font-size: 20px !important;
+}
 
 
 /* the form..... ------------------------------------------------------------*/
@@ -457,7 +465,7 @@ font-size: 40px;
   font-size: 24px;
   height: 16em;
   position: relative;
-  top: 42em;
+  top: 38em;
   width: 100%;
   text-align: center;
   margin: 5em auto;
@@ -483,6 +491,7 @@ font-size: 40px;
   border: 2px solid #44545E;
   margin-top: 1em;
   padding-bottom: 11em;
+  padding-left: 1em;
 }
 
 #contact form .submit {
@@ -513,9 +522,10 @@ input::placeholder {
 #contact form input[name = "subject"]
 {
     height: 3em;
-    width: 30%;
+    width: 95%;
     margin:1px 1%;
     border: 2px solid #44545E;
+    padding-left: 1em;
 }
 
 
@@ -577,9 +587,6 @@ footer {
 }
 
 
-  .hamburger {
-    display: none;
-  }
 
 
 
@@ -612,16 +619,6 @@ footer {
 nav {
   display: none;
 }
-  .hamburger {
-    display: block;
-    color: #fff;
-    font-size: 1.7rem;
-    position: absolute;
-    top: 10px;
-    left: 2px;
-  }
-
-
 
 }
 

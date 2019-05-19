@@ -15,10 +15,6 @@
 <link href="https://fonts.googleapis.com/css?family=Arizonia|Cabin+Sketch|Dancing+Script|Lovers+Quarrel|Source-Sans-Pro" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 
- <!--  <link rel="stylesheet" type="
-  text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
- -->
 <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
 
 
@@ -27,7 +23,7 @@
 
 
   <nav>
-        <a class="hamburger" href=""><i class="fa fa-bars"></i></a>
+       
       <ul>
         <li><a href="#header">The Top!</a></li>
         <li><a href="#about">About</a></li>
@@ -59,16 +55,15 @@
 
 
   <section id="about">
-    <div>
+    <div id="abtImg">
       <img style="width: 30vw; height:auto" src="./images/ThreeCities.png" alt="">
+      <p>
+          The three cities pictured are San Francisco, New Orleans, and Chattanooga, all of which I have ties to in different ways.
+        </p>
     </div>
 
     <div>
         <h2> About Me </h2>
-      
-        <p>
-        The three cities pictured are San Francisco, New Orleans, and Chattanooga, all of which I have ties to in different ways.
-      </p>
       <p>
         I am a humanist who hopes for a better future and believes that technology can empower us to create that future. 
         </p>
@@ -77,7 +72,7 @@
             I first became interested in programming when I worked with a developer to create a program that helps self-representing clients fill out legal forms. I then found that programming and technology can help us eliminate redundant processes (such as when I automated the sign in and data collection systems at the Pro Bono Project) and enable us to focus more on creative and complex tasks. 
           </p>
           <p>
-            I’m now aspiring to become a valuable resource as a software engineer at a mission-driven company. 
+            I am aspiring to become a valuable resource as a software engineer at a mission-driven company. 
         </p>
       <!-- </div> -->
       <p>
@@ -116,7 +111,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active" id="slide1">
               <button type="button" class="btn" data-toggle="modal" data-target="#jediModal">
-            
+          
               <img class="d-block w-100" src="./images/HackerJedi.png" alt="First slide">
            
             </button>
@@ -138,53 +133,16 @@
           </div>
 
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span style="color:brown !important" aria-hidden="true"> < </span>
+            <span style="color:lightgrey !important; font-size: 38px;  margin-right: 4.5em;" aria-hidden="true"> <div class="next">Prev</div> < </span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span style="color:brown !important" aria-hidden="true"> > </span>
+            <span style="color:lightgrey !important; font-size: 38px; margin-left: 4.5em;" aria-hidden="true"> <div class="next">Next</div> > </span>
             <span class="sr-only">Next</span>
           </a>
         </div>
-        
 
       </div>
-
-
-
-
-<!-- 
-      <div class="dots carousel-indicators">
-    
-        <div class="thumbnailWrapper">
-          <div class="thumbnailDiv">
-              
-            <img src="./images/HackerJedi.png" class="thumbnail">
-            
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
-          </div>
-  
-          <div class="thumbnailDiv">
-              
-            <img src="./images/Sensibly.png" class="thumbnail">
-            
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </div>
-  
-          <div class="thumbnailDiv">
-          
-              <img src="./images/VeggieDish.png" class="thumbnail">
-       
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </div>
-        </div>
-  
-        </div> -->
-
-      
-
-
-
     </div>
  
   </section>
@@ -203,17 +161,43 @@
             </div>
             <div class="modal-body">
                 <img class="img-responsive" src="./images/HackerJedi.png"  style="max-width:515px;">
-                <a href="https://github.com/heggy231/hacker-jedi">Link to Github for Hacker Jedi</a>
-                <!-- <p>
-                  ablasdfj;lsajdf
-                  alsdfjal;sdfjlasjf
-                  <br/>
-                  alskdjfl;asdjf
-                  <br/>
-                  alskdjfl;asdjf
-                  <br/>
-                  alskdjfl;asdjf
-                </p> -->
+            <br/>
+                <p>
+                    <br/>
+                      Hacker Jedi app helps non-traditional software engineers get their foot in the door. User can search community run database and create, edit, delete apprenticeships.
+                      <br/>
+                      <br/>
+                   <a href="https://dry-garden-46076.herokuapp.com/">Link to HackerJedi Website deployed on Heroku</a>
+                   <br/>
+                   <a href="https://github.com/heggy231/hacker-jedi">Link to Github for Hacker Jedi</a>
+                   <br/>
+                   <h4>Technologies Used:</h4>
+                      <ul>
+                      <li>JavaScript(ES6)</li>
+                      <li>jQuery</li>
+                      <li>JSON</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>ExpressJS</li>
+                      <li>MongoDB</li>
+                      <li>AJAX</li>
+                      <li>Node.js</li>
+                      <li>Flexbox</li>
+                      <li>RESTFUL API</li>
+                      <li>Heroku</li>
+                      <li>Responsive Design</li>
+                      <li>Authentication: Google OAuth</li>
+                      <li>Agile Development/Srum/Sprints</li>
+                    </ul>
+                    
+                    <h4>Features:</h4>
+                  <ul>
+                    <li>Documented API Endpoints (/api describes all the available endpoints)</li>
+                    <li>User can securely login and logout via Google OAuth</li>
+                    <li>User can create, edit & delete an apprenticeship only after login</li>
+                    <li>User can view all apprenticeships, but only edit & delete only the apprenticeship(s) that they added to Hacker-Jedi site</li>
+                    <li>User can search for apprenticeship </li>
+                  </p>
             </div>
           </div>
         </div>
@@ -234,17 +218,41 @@
             </div>
             <div class="modal-body">
                 <img class="img-responsive" src="./images/Sensibly.png"  style="max-width:515px;">
-                <a href="https://github.com/salay/Sensibly">Link to Github for Sensibly</a>
-                <!-- <p>
-                  ablasdfj;lsajdf
-                  alsdfjal;sdfjlasjf
-                  <br/>
-                  alskdjfl;asdjf
-                  <br/>
-                  alskdjfl;asdjf
-                  <br/>
-                  alskdjfl;asdjf
-                </p> -->
+            <br/>
+             <p>
+                <br/>
+               Sensibly is an Acuity-like scheduling app for therapists.... (that might've devolved into an app to schedule time with therapy dogs).
+               <br/>
+               <br/>
+            <a href="https://sensibly-capstone.herokuapp.com/">Link to Sensibly Website deployed on Heroku</a>
+            <br/>
+            <a href="https://github.com/salay/Sensibly">Link to Github for Sensibly</a>
+              
+                <h4>Technologies Used:</h4>
+                <ul>
+                <li>Python</li>
+                <li>WTForms</li>
+                <li>Flask</li>
+                <li>Jinja</li>
+                <li>SQLite</li>
+                <li>PostgreSQL</li>
+                <li>Vanilla JS</li>
+                <li>Bootstrap</li>
+              </ul>
+                
+              <h4>Features:</h4>
+              <ul>
+                  <li>Flask Authentication with Validation (Register for Account and Login)</li>
+                  <li>Public Therapist Profile Page & Private User Profile Page.</li>
+                  <li>Vanilla JS calendar</li>
+                  <li>Cannot schedule appointments if not signed in.</li>
+                  <li>User can click on a date, make an appointment, view it on the same page, edit it, and delete it.</li>
+                  <li>If signed in as a user, you cannot view therepists schedules. </li>
+                  <li>Therapists can view only their own schedules when signed in as a therapist.</li>
+                  <li>Users cannot schedule an appointment in the past or during a slot in which an appointment is already scheduled with said therapist. </li>
+                  <li>Flexible Search Bar on therapists list page. </li>
+            </ul>
+             </p>
             </div>
           </div>
         </div>
@@ -265,17 +273,41 @@
         </div>
         <div class="modal-body">
             <img class="img-responsive" src="./images/VeggieDish.png"  style="max-width:515px;">
-            <a href="https://github.com/lvmor/project-3-VeggieDish">Link to Github for VeggieDish</a>
-            <!-- <p>
-              ablasdfj;lsajdf
-              alsdfjal;sdfjlasjf
+            <br/>
+            <p>
+                <br/>
+                VeggieDish is a platform designed with the vegeterian community in mind. Users can search and create vegeterian recipes. They can also rate and comment their favorite dishes.
+                <br/>
+                 <br/>
+              <a href="https://veggiedish-api-heroku.herokuapp.com">Link to VeggieDish Website deployed on Heroku</a>
               <br/>
-              alskdjfl;asdjf
+              <a href="https://github.com/lvmor/project-3-VeggieDish">Link to Github for VeggieDish</a>
+                <h4>Technologies Used:</h4>
+                <ul>
+                <li>Python</li>
+                <li>WTForms</li>
+                <li>Flask</li>
+                <li>Jinja</li>
+                <li>SQLite</li>
+                <li>PostgreSQL</li>
+                <li>Vanilla JS</li>
+                <li>Bootstrap</li>
+                <li>Bulma</li>
+                <li>Agile Development/Srum/Sprints</li>
+              </ul>
               <br/>
-              alskdjfl;asdjf
-              <br/>
-              alskdjfl;asdjf
-            </p> -->
+              
+              <h4>Features:</h4>
+              <ul>
+              <li>RESTFUL API with PostgreSQL database </li>
+              <li>Flask authentication & validation (User Log-In & Sign-Up)</li>
+              <li>Flexible search bar to search recipes</li>
+              <li>User Profile Page with edit functionality</li>
+              <li>User can create, edit & delete recipes while signed in</li>
+              <li>User can create, edit & delete reviews while signed in</li>
+            </ul>
+                
+            </p>
         </div>
       </div>
     </div>
@@ -296,6 +328,7 @@
           <li>Python</li>
           <li>Swift, Xcode</li>
           <li>SPSS</li>
+          <li>Java, Eclipse</li>
         </ul>
     </div>
     <div>
@@ -327,6 +360,7 @@
         <li>Heroku</li>
         <li>Git & Github</li>
         <li>CLI</li>
+        <li>AWS</li>
       </ul>
     </div>
 
@@ -334,7 +368,7 @@
       <h5>Databases</h5>
       <ul>
         <li>SQLite</li>
-        <li>Postgres</li>
+        <li>PostgreSQL</li>
         <li>SQLAlchemy</li>
         <li>MongoDB</li>
       </ul>
@@ -345,18 +379,17 @@
  
 
 
-
   <section id="contact">
       <h2>Reach out!</h2>
       <h5>Send me an email</h5>
-      <form class="contactForm">
+      <form  action="mailto:siri.alay1@gmail.com" class="contactForm">
         <div class="">
-          <input type="text" name="name" placeholder= "full name" />
-          <input type="email" name = "email" placeholder= "email" />
+          <!-- <input type="text" name="name" placeholder= "full name" />
+          <input type="email" name = "email" placeholder= "email" /> -->
           <input type="text" name = "subject" placeholder= "subject" />
         </div>
         <div class="">
-            <input class="message" type="text" name="message" placeholder="message" />
+            <input class="message" type="text" name="body" placeholder="message" />
         </div>
         <div class="">
              <input class = "submit" type="submit" value = "Submit"/>
